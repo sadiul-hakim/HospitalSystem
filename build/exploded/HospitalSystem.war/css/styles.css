@@ -1,0 +1,61 @@
+/* 
+    Created on : Oct 13, 2022, 6:15:07 PM
+    Author     : Hakim
+*/
+:root{
+    --primary-color: rgba(1, 192, 103, 0.82);
+    --secondary-color: rgb(0, 239, 72);
+}
+
+.navbar-brand{
+
+    font-weight: bold;
+}
+
+.header{
+    background: var(--primary-color);
+    z-index: 10;
+}
+
+.carousel-item img{
+
+    height:500px;
+}
+
+.common-heading{
+    text-align:center;
+    margin-bottom: 2rem;
+    margin-top: 7px;
+}
+
+.fea-pic img{
+
+    width:100%;
+}
+
+.common-hr{
+    color:#999;
+}
+
+.team-card img{
+    height: 150px;
+    width:100%;
+}
+
+.footer{
+    background: var(--primary-color);
+}
+.login-btn{
+    background: var(--primary-color) !important;
+    color:white !important;
+}
+
+.login-temp,
+.register-temp{
+    width:400px;
+}
+
+.admin-card i,h2,h4{
+   color:var(--primary-color);
+    
+}
